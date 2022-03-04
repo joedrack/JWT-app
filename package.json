@@ -1,0 +1,23 @@
+{
+  "name": "jwt-app",
+  "version": "1.0.0",
+  "description": "simple auth app using JWT-app",
+  "main": "server.js",
+  "repository": "https://github.com/joedrack/JWT-app.git",
+  "author": "jodrack <drack.sir01@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
